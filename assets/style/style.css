@@ -1,0 +1,149 @@
+body {
+    /* Created with https://www.css-gradient.com */
+    background: #23EC55;
+    background: -webkit-radial-gradient(top right, #23EC55, #2D51C1);
+    background: -moz-radial-gradient(top right, #23EC55, #2D51C1);
+    background: radial-gradient(to bottom left, #23EC55, #2D51C1);
+    /* min-height: 100vh; */
+}
+
+.body-special {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+nav {
+    /* height: 5vh; */
+    background-color: #45526e;
+}
+
+.nav-link {
+    color: white;
+}
+
+.title-carousel {
+    font-size: 5rem;
+    color: black;
+}
+
+/* .title-carousel:hover {
+    color: white;
+} */
+
+.title-carousel-past {
+    font-size: 5rem;
+    color: black;
+}
+
+.carousel-caption {
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.carousel-item{
+    height: 30vh;
+}
+
+.carousel-slide {
+    height: 30vh;
+}
+
+.carousel-item>img{
+    height: 100%;
+    object-fit:cover;
+    object-position: 0 25%;
+    opacity: 0.7;
+}
+
+.form-check-input:checked {
+    background-color: #45526e;
+    border-color: #45526e;
+}
+
+.bi {
+    color: white;
+    /* padding-bottom: 6px; */
+}
+
+.button-card:not(.first-button) {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 2.5rem;
+    align-items: center;
+}
+
+.first-button {
+    text-decoration: none;
+    padding-left: 2.5rem;
+    color: black;
+}
+
+.first-button:hover {
+    color: white;
+}
+
+footer {
+    background-color: #45526e;
+    /* position: relative;
+    bottom: 0;
+    width: 100%; */
+}
+
+#footer-special {
+    margin-top: auto;
+    width: 100%;
+}
+
+#cards-section img{
+    height: 50%;
+    object-fit: cover;
+}
+
+#cards-section .card {
+    width: 20rem;
+    color: white;
+    background-color: #45526e;
+}
+
+#cards-section-details img{
+    height: 50%;
+    object-fit: cover;
+}
+
+#cards-section-details .card {
+    width: 30rem;
+    color: white;
+    background-color: #45526e;
+}
+
+#cards-section-details .card1 {
+    width: 30rem;
+    color: white;
+    background-color: #45526e;
+}
+
+.card1 {
+    border-radius: 5rem;
+}
+
+#cards-section-details .card1 img {
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5rem;
+}
+
+thead {
+    text-align: center;
+    background-color: #45526e;
+    color: white;
+    /* border: 0.5rem solid #45526e; */
+}
+
+td {
+    height: 2rem;
+}
