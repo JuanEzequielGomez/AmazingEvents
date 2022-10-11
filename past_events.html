@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="./assets/style/style.css">
 </head>
 
-<body>
+<body class="body-special">
     <nav class="navbar navbar-expand-lg py-3">
         <div class="container">
             <a href="#" class="navbar-brand">
@@ -31,7 +31,7 @@
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active"><a href="./index.html" class="nav-link">Home</a></li>
                     <li class="nav-item"><a href="./upcoming_events.html" class="nav-link">Upcoming Events</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Past Events</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link" id="active">Past Events</a></li>
                     <li class="nav-item"><a href="./contact.html" class="nav-link">Contact</a></li>
                     <li class="nav-item"><a href="./stats.html" class="nav-link">Stats</a></li>
                 </ul>
@@ -94,7 +94,7 @@
             <span class="visually-hidden">Next</span>
         </button>
     </div>
-    <div class="container d-flex flex-wrap p-4 text-center gap-5">
+    <!-- <div class="container d-flex flex-wrap p-4 text-center gap-5">
         <div class="col d-flex justify-content-center align-items-center">
             <div class="p-1">
                 <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
@@ -144,7 +144,7 @@
                         d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
                 </svg></button>
         </div>
-    </div>
+    </div> -->
     <!-- <div id="cards-section" class="container d-flex gap-4 p-5 flex-wrap justify-content-center">
         <div class="card">
             <img src="./assets/imgs/concert.jpg" class="card-img-top" alt="...">
@@ -219,12 +219,34 @@
             </div>
         </div>
     </div> -->
-    <main class="container">
-        <div id="contenedor-datos" class="d-flex flex-wrap justify-content-center gap-5 mt-5 mb-5">
+
+    <main id="main-cards" class="container-fluid d-flex flex-column p-3 p-xxl-5 justify-content-center flex-wrap">
+
+        <!--------------------------CHECKBOXS----------------------------------->
+
+        <div class="container d-flex justify-content-center p-3">
+            <form class="d-flex gap-3 flex-wrap justify-content-around" action="">
+                <div class="d-flex flex-row flex-wrap justify-content-center" id="contenedor-categorias">
+
+                </div>
+
+                <div class="d-flex buscador">
+                    <input class="form-control" id="buscador" type="search" placeholder="Search">
+
+                </div>
+
+            </form>
+        </div>
+
+        <!--------------------------CARDS----------------------------------->
+
+        <div id="contenedor-datos-past" class="d-flex flex-wrap justify-content-center gap-5 mt-5 mb-5">
 
         </div>
+
     </main>
-    <footer class="d-flex justify-content-around align-items-center">
+
+    <footer id="footer-special" class="d-flex justify-content-around align-items-center">
         <div class="p-3 d-flex justify-content-center align-items-center justify-content-md-end">
             <a class="btn btn-floating m-1" class="text-white" role="button"><svg xmlns="http://www.w3.org/2000/svg"
                     width="24" height="24" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
